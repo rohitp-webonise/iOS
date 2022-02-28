@@ -61,7 +61,7 @@ class ViewController: UIViewController {
     
     @IBAction func LoginButton(_ sender: UIButton) {
 
-      
+      //LOGIN BUTTON WITH AUTHENTICATION OF EMAIL AND PASSWORD
       
         if (Email.text?.isValidEmail)!{
             print("Email is valid.")
