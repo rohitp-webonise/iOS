@@ -64,16 +64,16 @@ class ViewController: UIViewController {
       
       
         if (Email.text?.isValidEmail)!{
-            print("Email is valid")
+            print("Email is valid.")
         }
         else{
-            print("Email is not valid")
+            print("Email is not valid!")
         }
         if(Password.text?.isValidPassword)!{
-            print("password is valid")
+            print("password is valid.")
         }
         else{
-            print("Password is not valid")
+            print("Password is not valid!")
         }
     }
     @objc func imageTapped(tapGestureRecognizer:UITapGestureRecognizer)
